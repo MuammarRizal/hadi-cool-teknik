@@ -42,7 +42,7 @@
   // Fungsi untuk mengecek apakah sudah mendekati bagian bawah
   function checkIfNearBottom() {
     // Jika sudah mendekati bagian bawah (100px)
-    if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 100) {
+    if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 500) {
       const hiddenWhatsapp = document.querySelector(".whatsapp-button");
       hiddenWhatsapp.style.display = "none";
     } else {
