@@ -32,10 +32,30 @@
     }
   });
   $(".back-to-top").click(function () {
-    $("html, body").animate({ scrollTop: 0 }, 1500, "easeInOutExpo");
+    $("html, body").animate({ scrollTop: 0 }, 500, "easeInOutExpo");
     return false;
   });
+  function scrollDown() {
+    window.scrollBy(0, window.innerHeight);
+  }
 
+  // Fungsi untuk mengecek apakah sudah mendekati bagian bawah
+  function checkIfNearBottom() {
+    // Jika sudah mendekati bagian bawah (100px)
+    if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 100) {
+      const hiddenWhatsapp = document.querySelector(".whatsapp-button");
+      hiddenWhatsapp.style.display = "none";
+    } else {
+      const hiddenWhatsapp = document.querySelector(".whatsapp-button");
+      hiddenWhatsapp.style.display = "block";
+    }
+  }
+
+  // Panggil fungsi scrollDown setelah beberapa detik (contoh: 2 detik)
+  setTimeout(scrollDown, 2000);
+
+  // Tambahkan event listener untuk mengecek saat scrolling
+  window.addEventListener("scroll", checkIfNearBottom);
   // Facts counter
   $('[data-toggle="counter-up"]').counterUp({
     delay: 10,
