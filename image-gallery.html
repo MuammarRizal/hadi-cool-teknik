@@ -8,7 +8,7 @@
     <meta content="" name="description" />
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon" />
+    <link href="img/logo-icon.jpeg" rel="icon" />
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -85,95 +85,19 @@
           <a href="about.html" class="nav-item nav-link">Tentang</a>
           <a href="service.html" class="nav-item nav-link">Layanan</a>
 
-          <a href="contact.html" class="nav-item nav-link active">Kontak</a>
+          <a href="contact.html" class="nav-item nav-link">Kontak</a>
           <a href="harga.html" class="nav-item nav-link btn btn-primary rounded-0 py-4 px-lg-5 d-lg-block text-white">Harga<i class="fa fa-arrow-right ms-3"></i></a>
         </div>
       </div>
     </nav>
     <!-- Navbar End -->
 
-    <!-- Page Header Start -->
-    <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
-      <div class="container py-5">
-        <h1 class="display-3 text-white mb-3 animated slideInDown">Contact Us</h1>
-        <nav aria-label="breadcrumb animated slideInDown">
-          <ol class="breadcrumb text-uppercase mb-0">
-            <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-            <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-            <li class="breadcrumb-item text-primary active" aria-current="page">Contact</li>
-          </ol>
-        </nav>
-      </div>
+    <!-- IMAGE GALLERY START  -->
+    <div class="container">
+      <h2 class="text-center">PORTFOLIO HADI COOL TEKNIK</h2>
+      <div class="row image-gallery"></div>
     </div>
-    <!-- Page Header End -->
-
-    <!-- Contact Start -->
-    <div class="container-xxl py-5">
-      <div class="container">
-        <div class="row g-4">
-          <div class="col-lg-4">
-            <div class="h-100 bg-light rounded d-flex align-items-center p-5">
-              <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white" style="width: 55px; height: 55px">
-                <i class="fa fa-map-marker-alt text-primary"></i>
-              </div>
-              <div class="ms-4">
-                <p class="mb-2">Alamat</p>
-                <h5 class="mb-0">JL H.KAISIN RT 04/004 NO 39,JAKARTA SELATAN</h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="h-100 bg-light rounded d-flex align-items-center p-5">
-              <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white" style="width: 55px; height: 55px">
-                <i class="fa fa-phone-alt text-primary"></i>
-              </div>
-              <div class="ms-4">
-                <p class="mb-2">Hubungi Kami</p>
-                <h5 class="mb-0">+62 858-8320-5874</h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="h-100 bg-light rounded d-flex align-items-center p-5">
-              <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white" style="width: 55px; height: 55px">
-                <i class="fa fa-envelope-open text-primary"></i>
-              </div>
-              <div class="ms-4">
-                <p class="mb-2">Email</p>
-                <h5 class="mb-0">hasap080613@gmail.com</h5>
-              </div>
-            </div>
-          </div>
-          <div class="container-xxl py-5">
-            <div class="container">
-              <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                  <p class="d-inline-block border rounded-pill py-1 px-4">Appointment</p>
-                  <h1 class="mb-4">HUBUNGI KAMI</h1>
-                  <p class="mb-4">
-                    Hadi Cool Teknik merupakan solusi untuk menyelesaikan berbagai masalah AC ruangan anda. Kami tahu bahwa ketika anda menemukan halaman ini yang anda butuhkan adalah teknisi AC untuk perbaikan AC ruangan anda. Dan kami
-                    katakan bahwa anda telah menemukan halaman situs penyedia layanan perbaikan AC yang benar.
-                  </p>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.3634904339588!2d106.79902777920539!3d-6.346955745681574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ee8f24918403%3A0xa38725b8668b5c45!2sGg.%20H.%20Kaisin%20No.39%2C%20RT.4%2FRW.4%2C%20Cipedak%2C%20Kec.%20Jagakarsa%2C%20Kota%20Jakarta%20Selatan%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2012630!5e0!3m2!1sid!2sid!4v1706434648323!5m2!1sid!2sid"
-                    width="370"
-                    height="600"
-                    style="border: 0"
-                    allowfullscreen=""
-                    loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"
-                  ></iframe>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Contact End -->
-
+    <!-- IMAGE GALLERY END-->
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
       <div class="container py-5">
@@ -236,5 +160,21 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script>
+      const imageGallery = document.querySelector(".image-gallery");
+      const imageGalleryPush = (i) => {
+        return `
+  <div class="col-md-6 col-lg-3 col-12 mt-3">
+    <div class="card">
+      <img src="img/portfolio/image-${i}.jpeg" class="card-img-top" alt="image-${i}" />
+        </div>
+    </div>
+  `;
+      };
+
+      for (let i = 1; i < 30; i++) {
+        imageGallery.innerHTML += imageGalleryPush(i);
+      }
+    </script>
   </body>
 </html>
