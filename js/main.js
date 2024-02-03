@@ -84,147 +84,123 @@
 const arrItem = [
   {
     layanan: "Cuci AC 0,5 - 1PK",
-    harga: "Rp 65.000",
-    ket: "Hanya Jasa",
+    harga: "Rp 75.000",
   },
   {
     layanan: "Cuci AC 1,5 - 2PK",
     harga: "Rp 75.000",
-    ket: "Hanya Jasa",
+  },
+  {
+    layanan: "Cuci AC Inverter 0,5 - 2PK",
+    harga: "Rp 130.000",
   },
   {
     layanan: "Tambah Freon R22 0.5 - 1PK",
-    harga: "Rp 200.000",
-    ket: "Part & Jasa",
+    harga: "Rp 175.000",
   },
   {
     layanan: "Tambah Freon R22 1.5 - 2PK",
-    harga: "Rp 250.000",
-    ket: "Part & Jasa",
+    harga: "Rp 225.000",
   },
   {
-    layanan: "Tambah Freon R410 1,5 - 2PK",
-    harga: "Rp 250.000",
-    ket: "Part & Jasa",
+    layanan: "Tambah Freon R32/R410 0,5 - 1PK",
+    harga: "Rp 225.000",
   },
   {
-    layanan: "Tambah Freon R410 0,5 - 1PK",
-    harga: "Rp 350.000",
-    ket: "Part & Jasa",
+    layanan: "Tambah Freon R32/R410 1,5 - 2PK",
+    harga: "Rp 275.000",
+  },
+  {
+    layanan: "Isi Freon R22 0,5 - 1PK",
+    harga: "	Rp 275.000",
   },
   {
     layanan: "Isi Freon R22 1,5 - 2PK",
-    harga: "	Rp 450.000",
-    ket: "Part & Jasa",
+    harga: "Rp 325.000",
   },
   {
-    layanan: "Isi Freon R32 0,5 - 1PK",
+    layanan: "Isi Freon R32/R410 0.5 – 1 PK",
     harga: "Rp 350.000",
-    ket: "Part & Jasa",
   },
   {
-    layanan: "Isi Freon R32 1,5 - 2PK",
+    layanan: "Isi Freon R32/R410 1.5 -2 PK",
     harga: "Rp 450.000",
-    ket: "Part & Jasa",
-  },
-  {
-    layanan: "Tambah Freon R32 0.5 - 1PK",
-    harga: "Rp 200.000",
-    ket: "Part & Jasa",
-  },
-  {
-    layanan: "Tambah Freon R32 1,5 - 2PK",
-    harga: "Rp 250.000",
-    ket: "Part & Jasa",
-  },
-  {
-    layanan: "Isi Freon R410 0,5 - 1PK",
-    harga: "Rp 350.000",
-    ket: "Part & Jasa",
-  },
-  {
-    layanan: "Isi Freon R410 1.5 - 2PK",
-    harga: "Rp 450.000",
-    ket: "Part & Jasa",
   },
   {
     layanan: "Bongkar AC",
-    harga: "Rp 200.000",
-    ket: "Jasa/Titik.",
+    harga: "Rp 175.000",
   },
   {
-    layanan: "Pasang AC 0.5 - 1PK",
-    harga: "Rp 275.000",
-    ket: "Jasa/Titik.",
+    layanan: "Pasang AC 0.5 – 1 PK",
+    harga: "Rp 300.000",
   },
   {
-    layanan: "Pasang AC 1.5 - 2PK",
+    layanan: "Pasang AC 1.5 – 2 PK",
     harga: "Rp 375.000",
-    ket: "Jasa/Titik.",
   },
   {
-    layanan: "Bongkar Pasang 0.5 - 1PK",
-    harga: "Rp 400.000",
-    ket: "Jasa/Titik.",
+    layanan: "Bongkar Pasang AC 0.5 – 1 PK",
+    harga: "Rp 450.000",
   },
   {
-    layanan: "Bongkar Pasang 1.5 - 2PK",
-    harga: "Rp 500.000",
-    ket: "Jasa/Titik.",
+    layanan: "Bongkar Pasang AC 1.5 – 2 PK",
+    harga: "Rp 500.000,-",
   },
   {
-    layanan: "Bongkar Pasang 1.5 - 2PK",
-    harga: "Rp 500.000",
-    ket: "Jasa/Titik.",
+    layanan: "Penggantian Kapasitor AC 0.5 – 1 PK (Part dan Jasa)",
+    harga: "Rp 275.000,-",
   },
   {
-    layanan: "Bobok Tembok/M",
-    harga: "Rp 50.000",
-    ket: "Hanya Jasa.",
+    layanan: "Penggantian Kapasitor AC 1.5 – 2 PK (Part dan Jasa)",
+    harga: "Rp 330.000,-",
   },
   {
-    layanan: "Las Sambung Pipa Freon/Titik",
-    harga: "Rp 125.000",
-    ket: "Hanya Jasa.",
+    layanan: "Bobok Tembok per Meter",
+    harga: "Rp 50.000,-",
   },
   {
-    layanan: "Las Kebocoran Pipa Freon",
-    harga: "Rp 550.000",
-    ket: "Jasa + Freon",
+    layanan: "Las Sambungan Pipa Freon per titik",
+    harga: "Rp 125.000,-",
   },
   {
-    layanan: "Kunjungan/Pengecekan AC",
-    harga: "Rp 50.000",
-    ket: "Hanya Jasa",
+    layanan: "Las Perbaikan Kebocoran Pipa Freon + Isi Freon",
+    harga: "Rp 550.000,-",
   },
   {
-    layanan: "Ganti Kapasitor 0.5 - 1PK",
-    harga: "Rp 350.000,- s/d 475.000",
-    ket: "Part & Jasa",
+    layanan: "Vacuum & Flushing AC",
+    harga: "Rp 350.000,-",
+  },
+  {
+    layanan: "Flushing Evaporator",
+    harga: "Rp 200.000,-",
+  },
+  {
+    layanan: "Vacuum",
+    harga: "Rp 150.000,-",
+  },
+  {
+    layanan: "Biaya Pengecekan AC**",
+    harga: "Rp 75.000,-",
   },
   {
     layanan: "Flushing Evapurator",
     harga: "Rp 275.000",
-    ket: "Jasa",
   },
   {
     layanan: "Cuci Besar/Overhaul 0.5 - 1PK",
     harga: "Rp 375.000",
-    ket: "Jasa",
   },
   {
     layanan: "Cuci Besar/Overhaul 1.5 - 2PK",
     harga: "Rp 475.000",
-    ket: "Jasa",
   },
   {
     layanan: "Cuci AC Inverter 0.5 - 1PK",
     harga: "Rp 130.000",
-    ket: "Jasa",
   },
 ];
 const table = document.querySelector(".table-harga-hct");
-const funcc = ({ layanan, harga, ket }) => {
+const funcc = ({ layanan, harga }) => {
   return `
     <tr>
     <td>
@@ -232,9 +208,6 @@ const funcc = ({ layanan, harga, ket }) => {
     </td>
     <td>
         ${harga}
-    </td>
-    <td>
-        ${ket}
     </td>
   </tr>
     `;
